@@ -1,0 +1,13 @@
+$ cd /
+$ ls
+dir cmjgvh
+dir hdh
+59662 hjsbd.mzp
+$ cd cmjgvh
+$ ls
+10 foo
+20 bar 
+dir blah
+$ cd blah
+$ ls
+30 leav
