@@ -38,21 +38,21 @@ let
                 #diagonal
                 if head[1] != tail[1] && head[2] - tail[2] > 1
                     #up
-                    tail[2] += 1 #ceil((head[2] - tail[2])/2)
+                    tail[2] += 1 
                     tail[1] = head[1]
                 elseif head[1] != tail[1] && head[2] - tail[2] < -1
                     #down
-                    tail[2] -= 1 #ceil((head[2] - tail[2])/2)
+                    tail[2] -= 1 
                     tail[1] = head[1]
                 end
 
                 if head[2] != tail[2] && head[1] - tail[1] > 1
                     #right
-                    tail[1] += 1 #ceil((head[1] - tail[1])/2)
+                    tail[1] += 1 
                     tail[2] = head[2]
                 elseif head[2] != tail[2] && head[1] - tail[1] < -1
                     #left
-                    tail[1] -= 1 #ceil((head[1] - tail[1])/2)
+                    tail[1] -= 1 
                     tail[2] = head[2]
                 end
             end
